@@ -1,0 +1,4 @@
+AlertID,RequestID,ReportedByUserID,AlertType,AlertDescription,AlertDateTime,Latitude,Longitude,SeverityLevel,AlertStatus,ReviewedBy,ResponseDescription,ResponseDateTime
+7001,1001,alex.rider@example.com,other,Driver was driving too quickly,2026-10-01 08:40:00,40.7982,-77.8599,low,resolved,sam.staff@example.com,Issue reviewed and documented,2026-10-01 12:00:00
+7002,1003,taylor.both@example.com,accident,Vehicle was involved in a minor accident,2026-10-03 10:50:00,40.7934,-77.8600,medium,investigating,robin.staff@example.com,Staff contacted the driver for additional information,2026-10-03 12:00:00
+7003,1006,alex.rider@example.com,suspicious_activity,Passenger reported suspicious activity,2026-11-11 14:40:00,40.7990,-77.8610,high,open,\N,\N,\N

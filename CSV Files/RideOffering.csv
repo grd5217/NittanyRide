@@ -1,0 +1,5 @@
+OfferingID,VehicleID,CategoryID,FareRate,OfferingDetails,AvailabilityStatus,DateCreated,LastUpdated
+101,301,4,2.25,Campus and downtown transportation,available,2026-09-15,2026-11-10
+102,302,5,1.85,Affordable short distance rides,fully_booked,2026-09-16,2026-11-12
+103,303,6,3.10,Spacious SUV transportation,unavailable,2026-09-17,2026-11-11
+104,304,7,1.50,Shared transportation option,unavailable,2026-09-18,2026-11-01

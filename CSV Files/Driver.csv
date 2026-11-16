@@ -1,0 +1,5 @@
+UserID,DLN,DriverStatus,ApprovalDate
+taylor.both@example.com,PA1234567,active,2026-09-10
+morgan.driver@example.com,PA2345678,active,2026-08-20
+casey.driver@example.com,PA3456789,active,2026-08-25
+jordan.driver@example.com,PA4567890,inactive,2026-07-15

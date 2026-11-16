@@ -1,0 +1,10 @@
+UserID,Password,FullName,PhoneNum,Street,ZipCode,RegistrationDate,AccountStatus
+alex.rider@example.com,HASH_demo_alex,A​​lex Rivera,8145550101,100 College Ave,16802,2026-09-01,active
+jamie.rider@example.com,HASH_demo_jamie,Jamie Chen,8145550102,200 Beaver Ave,16801,2026-09-03,active
+taylor.both@example.com,HASH_demo_taylor,Taylor Brooks,8145550103,300 Allen St,16803,2026-09-05,active
+morgan.driver@example.com,HASH_demo_morgan,Morgan Lee,8145550104,400 Atherton St,16802,2026-08-15,active
+casey.driver@example.com,HASH_demo_casey,Casey Morgan,8145550105,500 High St,16823,2026-08-20,active
+jordan.driver@example.com,HASH_demo_jordan,Jordan Smith,8145550106,600 Main St,16827,2026-07-10,active
+sam.staff@example.com,HASH_demo_sam,Sam Johnson,8145550107,700 College Ave,16801,2026-06-01,active
+robin.staff@example.com,HASH_demo_robin,Robin Davis,8145550108,800 Beaver Ave,16803,2026-06-15,active
+inactive.user@example.com,HASH_demo_inactive,Chris Taylor,8145550109,900 Allen St,16802,2026-09-10,deactivated

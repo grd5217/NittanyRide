@@ -1,0 +1,6 @@
+CardID,RiderID,CardType,CardToken,LastFour,ExpirationDate,CardholderName,IsDefault
+501,alex.rider@example.com,Visa,tok_demo_alex_visa_01,4242,2028-05,Alex Rivera,1
+502,alex.rider@example.com,Mastercard,tok_demo_alex_mc_02,4444,2029-03,Alex Rivera,0
+503,jamie.rider@example.com,Visa,tok_demo_jamie_visa_03,1111,2028-09,Jamie Chen,1
+504,taylor.both@example.com,Discover,tok_demo_taylor_disc_04,0005,2029-01,Taylor Brooks,1
+505,morgan.driver@example.com,Visa,tok_demo_morgan_visa_05,5555,2028-11,Morgan Lee,1

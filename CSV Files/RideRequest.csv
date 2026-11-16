@@ -1,0 +1,9 @@
+RequestID,RiderID,OfferingID,RequestDateTime,PickupLocation,DropoffLocation,PickupZipCode,DropoffZipCode,ScheduledPickupTime,ActualPickupTime,CompletionTime,FareAmount,RequestStatus,SeatCount
+1001,alex.rider@example.com,101,2026-10-01 08:00:00,East Halls,Old Main,16802,16801,2026-10-01 08:30:00,2026-10-01 08:32:00,2026-10-01 08:50:00,12.50,completed,1
+1002,jamie.rider@example.com,102,2026-10-02 09:00:00,West Halls,Library,16802,16802,2026-10-02 09:30:00,2026-10-02 09:31:00,2026-10-02 09:45:00,8.75,completed,1
+1003,taylor.both@example.com,103,2026-10-03 10:00:00,State College, Bellefonte,16801,16823,2026-10-03 10:30:00,2026-10-03 10:35:00,2026-10-03 11:05:00,24.00,completed,2
+1004,alex.rider@example.com,101,2026-11-10 12:00:00,East Halls,Student Union,16802,16802,2026-11-15 13:00:00,\N,\N,10.00,pending,1
+1005,jamie.rider@example.com,102,2026-11-10 13:00:00,Library,West Halls,16802,16802,2026-11-15 14:00:00,\N,\N,15.00,accepted,1
+1006,alex.rider@example.com,103,2026-11-11 14:00:00,State College,Boalsburg,16801,16827,2026-11-11 14:30:00,2026-11-11 14:35:00,\N,18.00,in_progress,1
+1007,jamie.rider@example.com,104,2026-11-12 15:00:00,Downtown,Campus,16801,16802,2026-11-12 15:30:00,\N,\N,6.00,canceled,1
+1008,morgan.driver@example.com,101,2026-11-13 08:00:00,Campus, Downtown,16802,16801,2026-11-13 08:30:00,2026-11-13 08:31:00,2026-11-13 08:48:00,11.00,completed,1

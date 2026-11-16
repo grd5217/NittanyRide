@@ -1,0 +1,3 @@
+UserID,EmployeeID,StaffRole
+sam.staff@example.com,EMP1001,Administrator
+robin.staff@example.com,EMP1002,Support Agent

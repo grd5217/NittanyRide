@@ -1,0 +1,4 @@
+QuestionID,RiderID,OfferingID,QuestionText,QuestionDateTime,AnswerText,AnswerDateTime,QuestionStatus
+4001,alex.rider@example.com,101,Do you offer rides to downtown?,2026-10-01 07:00:00,Yes I offer downtown rides,2026-10-01 07:15:00,answered
+4002,jamie.rider@example.com,103,Can I bring extra luggage?,2026-11-10 10:00:00,\N,\N,pending
+4003,taylor.both@example.com,104,How many passengers can ride?,2026-11-11 11:00:00,The vehicle can accommodate four passengers,2026-11-11 11:30:00,answered

@@ -1,0 +1,7 @@
+RequestID,SubmittedBy,ReviewedBy,RelatedRideRequestID,RequestType,Status,Description,CreatedAt,CompletedAt
+5001,alex.rider@example.com,sam.staff@example.com,1007,Cancellation,Approved,Request to cancel ride 1007,2026-11-12 15:10:00,2026-11-12 16:00:00
+5002,jamie.rider@example.com,robin.staff@example.com,\N,DriverApplication,Denied,Driver application denied because documentation was incomplete,2026-11-05 10:00:00,2026-11-06 12:00:00
+5003,casey.driver@example.com,sam.staff@example.com,\N,CategoryApplication,Approved,Request to add a new vehicle category,2026-11-07 09:00:00,2026-11-08 14:00:00
+5004,taylor.both@example.com,\N,\N,UserIDChange,Pending,Request to update account email address,2026-11-13 10:00:00,\N
+5005,jamie.rider@example.com,sam.staff@example.com,1007,Refund,Approved,Request for refund after ride cancellation,2026-11-12 16:10:00,2026-11-13 09:00:00
+5006,morgan.driver@example.com,\N,\N,GeneralSupport,Pending,Question about managing ride offerings,2026-11-13 11:00:00,\N

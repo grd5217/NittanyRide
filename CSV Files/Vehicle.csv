@@ -1,0 +1,5 @@
+VehicleID,DriverID,Make,Model,Year,LicensePlate,VehicleColor,VehicleCapacity
+301,taylor.both@example.com,Toyota,Camry,2022,PA-ABC-101,Silver,4
+302,morgan.driver@example.com,Honda,Civic,2021,PA-DEF-202,Black,4
+303,casey.driver@example.com,Subaru,Outback,2023,PA-GHI-303,Blue,5
+304,jordan.driver@example.com,Ford,Escape,2020,PA-JKL-404,White,4
