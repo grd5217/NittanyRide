@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NittanyRide Login</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="login-container">
+      <h1>NittanyRide</h1>
+      <p>Welcome! Please sign in.</p>
+
+      <form method="POST" action="/login">
+        <label>Email Address</label>
+        <input type="email" name="email" required />
+
+        <label>Password</label>
+        <input type="password" name="password" required />
+
+        <button type="submit">Sign In</button>
+      </form>
+    </div>
+  </body>
+</html>
