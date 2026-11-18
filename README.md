@@ -48,7 +48,9 @@ python -m pip install flask
 
 ## 5. Run the Flask Application
 
-From the src folder, navigate to app.py, and run it.
+In the terminal, ensure that you are still in the venv.  Run:
+
+python app.py
 
 If successful, Flask will display a message similar to:
 
