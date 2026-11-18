@@ -82,11 +82,9 @@ deactivate
 
 
 
-## Quick setup for Windows:
+## Quick setup for Windows (paste into terminal and run):
 cd src
-
 py -m venv .venv
-
 .venv\Scripts\activate.ps1
-
 python -m pip install flask
+py app.py
