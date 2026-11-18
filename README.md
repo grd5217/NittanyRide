@@ -17,7 +17,9 @@ cd src
 Create a virtual environment to keep project dependencies separate:
 
 python -m venv .venv
+
 or
+
 py -m venv venv
 
 ## 3. Activate the Virtual Environment
@@ -39,7 +41,9 @@ Make sure your virtual environment is activated.
 Install all required packages:
 
 pip install flask
+
 or
+
 python -m pip install flask
 
 ## 5. Run the Flask Application
