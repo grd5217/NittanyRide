@@ -4,7 +4,7 @@ Before running the application, make sure you have installed:
 
 - Python 3
 - Visual Studio Code
-- MySQL 
+- MySQL / SQLite
 
 ## 1. Navigate to the Project Directory
 
