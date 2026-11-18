@@ -20,7 +20,7 @@ python -m venv .venv
 
 or
 
-py -m venv venv
+py -m venv .venv
 
 ## 3. Activate the Virtual Environment
 
