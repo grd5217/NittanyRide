@@ -1,4 +1,4 @@
-## Prerequisites
+# Prerequisites
 
 Before running the application, make sure you have installed:
 
@@ -6,11 +6,11 @@ Before running the application, make sure you have installed:
 - Visual Studio Code
 - MySQL / SQLite
 
-## Important Notes
+# Important Notes
 Always activate your .venv environment before working on NittanyRide.
 .venv should not be committed to the repository.  It is safe to delete, and easy to reinstall everything. 
 
-## Quick setup for Windows (paste into terminal and run):
+# Quick setup for Windows (paste into terminal and run):
 cd src
 
 py -m venv .venv
@@ -36,7 +36,7 @@ pip install flask
 python app.py
 
 
-## Step by step breakdown:
+# Step by step breakdown:
 ## 1. Navigate to the Project Directory
 
 Open a terminal and navigate to the src folder:
