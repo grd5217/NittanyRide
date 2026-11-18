@@ -52,6 +52,10 @@ In the terminal, ensure that you are still in the venv.  Run:
 
 python app.py
 
+or 
+
+py app.py
+
 If successful, Flask will display a message similar to:
 
 * Running on http://127.0.0.1:5000
