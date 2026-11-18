@@ -48,3 +48,8 @@ button {
   cursor: pointer;
 }
 
+.login-error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}

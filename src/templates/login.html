@@ -14,7 +14,11 @@
       <h1>NittanyRide</h1>
       <p>Welcome! Please sign in.</p>
 
-      <form method="POST" action="/login">
+      {% if error%}
+      <p class="login-error">{{error}}</p>
+      {% endif %}
+
+      <form method="POST" action="/">
         <label>Email Address</label>
         <input type="email" name="email" required />
 
