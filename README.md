@@ -6,6 +6,10 @@ Before running the application, make sure you have installed:
 - Visual Studio Code
 - MySQL / SQLite
 
+## Important Notes
+Always activate your .venv environment before working on NittanyRide.
+.venv should not be committed to the repository.  It is safe to delete, and easy to reinstall everything. 
+
 ## 1. Navigate to the Project Directory
 
 Open a terminal and navigate to the src folder:
@@ -76,4 +80,4 @@ When finished working on the project, run:
 
 deactivate
 
-Note: Always activate your .venv environment before working on NittanyRide.
+
