@@ -1,11 +1,42 @@
-## Prerequisites
+# Prerequisites
 
 Before running the application, make sure you have installed:
 
 - Python 3
 - Visual Studio Code
-- MySQL 
+- MySQL / SQLite
 
+# Important Notes
+Always activate your .venv environment before working on NittanyRide.
+.venv should not be committed to the repository.  It is safe to delete, and easy to reinstall everything. 
+
+# Quick setup for Windows (paste into terminal and run):
+cd src
+
+py -m venv .venv
+
+.venv\Scripts\activate.ps1
+
+python -m pip install flask
+
+py app.py
+
+
+### OR
+
+
+cd src
+
+python -m venv .venv
+
+.venv\Scripts\activate.ps1
+
+pip install flask
+
+python app.py
+
+
+# Step by step breakdown:
 ## 1. Navigate to the Project Directory
 
 Open a terminal and navigate to the src folder:
@@ -17,6 +48,10 @@ cd src
 Create a virtual environment to keep project dependencies separate:
 
 python -m venv .venv
+
+or
+
+py -m venv .venv
 
 ## 3. Activate the Virtual Environment
 
@@ -38,9 +73,19 @@ Install all required packages:
 
 pip install flask
 
+or
+
+python -m pip install flask
+
 ## 5. Run the Flask Application
 
-From the src folder, navigate to app.py, and run it.
+In the terminal, ensure that you are still in the venv.  Run:
+
+python app.py
+
+or 
+
+py app.py
 
 If successful, Flask will display a message similar to:
 
@@ -61,5 +106,3 @@ CTRL + C
 When finished working on the project, run:
 
 deactivate
-
-Note: Always activate your .venv environment before working on NittanyRide.
