@@ -1,7 +1,24 @@
 from flask import Flask, render_template, request, redirect, url_for
+from werkzeug.security import generate_password_hash, check_password_hash
+
+
 from database import db 
 
 app = Flask(__name__)
+
+def verify_password(userid, input_password, conn):
+  cur = conn.cursor()
+
+  user = cur.execute('''
+    select *
+    from User
+    where UserID = ?
+  ''', [userid]).fetchone()
+
+  if user:
+    return check_password_hash(user['Password'], input_password)
+  else:
+    return False
 
 #checks if a user is in a given table.  used to redirect to the users corresponding dashboard
 def is_user_in_table(userid, table, conn):
@@ -37,25 +54,25 @@ def home():
     user = cur.execute('''
       select * 
       from User
-      where UserID = ? and Password = ?''', [email, password]).fetchone()
+      where UserID = ?''', [email]).fetchone()
 
-    if user and user['UserID'] == email and user['Password'] == password:   #login accepted
-      error = None 
-      #check user role, redirect to corresponding screen
-      if is_user_in_table(userid=email, table='Driver', conn=conn):
-        return redirect(url_for('driver_dashboard'))
-      if is_user_in_table(userid=email, table='Rider', conn=conn):
-        return redirect(url_for('rider_dashboard'))
-      if is_user_in_table(userid=email, table='SupportStaff', conn=conn):
-        return redirect(url_for('support_dashboard'))
+    if user and verify_password(email, password, conn):   #password correct
+      # check if account inactive before allowing login
+      if user["AccountStatus"] != 'active':
+        error = "Account deactivated"
 
-
-    # NEED CASE OF USER BEING INACTIVE
+      else:   #account active, accept login
+        if is_user_in_table(email, 'Driver', conn):
+          return redirect(url_for('driver_dashboard'))
+        if is_user_in_table(email, 'Rider', conn):
+          return redirect(url_for('rider_dashboard'))
+        if is_user_in_table(email, 'SupportStaff', conn):
+          return redirect(url_for('support_dashboard'))
 
     else: #login not accepted
       error = "Email or password is incorrect."
-      
 
+    conn.close()
   return render_template('login.html', error=error)
 
 
