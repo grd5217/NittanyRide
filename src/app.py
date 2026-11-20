@@ -60,8 +60,10 @@ def home():
       # check if account inactive before allowing login
       if user["AccountStatus"] != 'active':
         error = "Account deactivated"
+        print("account deactive")
 
       else:   #account active, accept login
+        print("accepted login")
         if is_user_in_table(email, 'Driver', conn):
           return redirect(url_for('driver_dashboard'))
         if is_user_in_table(email, 'Rider', conn):
@@ -71,6 +73,7 @@ def home():
 
     else: #login not accepted
       error = "Email or password is incorrect."
+      print('login failed')
 
     conn.close()
   return render_template('login.html', error=error)
